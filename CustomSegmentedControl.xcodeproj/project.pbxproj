@@ -13,6 +13,7 @@
 		7F23CF1F2703A3C200C5B798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F23CF1D2703A3C200C5B798 /* Main.storyboard */; };
 		7F23CF212703A3C800C5B798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F23CF202703A3C800C5B798 /* Assets.xcassets */; };
 		7F23CF242703A3C800C5B798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F23CF222703A3C800C5B798 /* LaunchScreen.storyboard */; };
+		7F9E7A1B2703A74B002238C3 /* MSSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E7A1A2703A74B002238C3 /* MSSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7F23CF202703A3C800C5B798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F23CF232703A3C800C5B798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F23CF252703A3C800C5B798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F9E7A1A2703A74B002238C3 /* MSSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,48 @@
 		7F23CF162703A3C200C5B798 /* CustomSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				7F23CF172703A3C200C5B798 /* AppDelegate.swift */,
-				7F23CF192703A3C200C5B798 /* SceneDelegate.swift */,
-				7F23CF1B2703A3C200C5B798 /* ViewController.swift */,
-				7F23CF1D2703A3C200C5B798 /* Main.storyboard */,
+				7F9E7A192703A720002238C3 /* MSSegmentedControl */,
+				7F23CF2D2703A3EE00C5B798 /* Controllers */,
+				7F23CF2C2703A3DD00C5B798 /* User Interface */,
+				7F23CF2B2703A3D100C5B798 /* Root */,
 				7F23CF202703A3C800C5B798 /* Assets.xcassets */,
-				7F23CF222703A3C800C5B798 /* LaunchScreen.storyboard */,
 				7F23CF252703A3C800C5B798 /* Info.plist */,
 			);
 			path = CustomSegmentedControl;
+			sourceTree = "<group>";
+		};
+		7F23CF2B2703A3D100C5B798 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				7F23CF172703A3C200C5B798 /* AppDelegate.swift */,
+				7F23CF192703A3C200C5B798 /* SceneDelegate.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		7F23CF2C2703A3DD00C5B798 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				7F23CF1D2703A3C200C5B798 /* Main.storyboard */,
+				7F23CF222703A3C800C5B798 /* LaunchScreen.storyboard */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		7F23CF2D2703A3EE00C5B798 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F23CF1B2703A3C200C5B798 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7F9E7A192703A720002238C3 /* MSSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				7F9E7A1A2703A74B002238C3 /* MSSegmentedControl.swift */,
+			);
+			path = MSSegmentedControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F9E7A1B2703A74B002238C3 /* MSSegmentedControl.swift in Sources */,
 				7F23CF1C2703A3C200C5B798 /* ViewController.swift in Sources */,
 				7F23CF182703A3C200C5B798 /* AppDelegate.swift in Sources */,
 				7F23CF1A2703A3C200C5B798 /* SceneDelegate.swift in Sources */,
