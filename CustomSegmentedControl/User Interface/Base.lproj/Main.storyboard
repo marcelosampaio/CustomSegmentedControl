@@ -46,7 +46,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="commaSeparatedButtonTitle" value="Uno,Doi,Tre, Qua,Qui"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="commaSeparatedButtonTitle" value="Hoje,5D,1M,6M,1A"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="textColor">
                                         <color key="value" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>

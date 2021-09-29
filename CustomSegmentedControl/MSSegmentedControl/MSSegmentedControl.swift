@@ -16,6 +16,7 @@ class MSSegmentedControl: UIControl {
     var buttons = [UIButton]()
     var selector : UIView!
     var selectedSegmentIndex = 0
+    var segmentsCount = 0
     
     // MARK: - IBDesignable
     @IBInspectable
@@ -127,6 +128,8 @@ class MSSegmentedControl: UIControl {
             btn.setTitleColor(textColor, for: .normal)
             if btn == button {
                 selectedSegmentIndex = index
+                segmentsCount = buttons.count
+                
                 UIView.animate(withDuration: 0.38) {
                     // completion
                     self.selector.center = button.center

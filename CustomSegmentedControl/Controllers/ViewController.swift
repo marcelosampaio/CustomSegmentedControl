@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     @IBAction func segmentedControlValueChanged(_ sender: Any) {
         let segmentControl = sender as! MSSegmentedControl
         print("🥋 selected segment: \(segmentControl.selectedSegmentIndex)")
+        print("🥋 total of segments: \(segmentControl.segmentsCount)")
         
     }
     
