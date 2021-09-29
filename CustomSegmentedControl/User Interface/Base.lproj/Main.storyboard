@@ -56,6 +56,9 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="selectorTextColor">
                                         <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <integer key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="segmentedControlValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="m0A-cK-eWW"/>

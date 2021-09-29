@@ -63,7 +63,12 @@ class MSSegmentedControl: UIControl {
         }
     }
     
-    
+    @IBInspectable
+    var fontSize : Int = 15 {
+        didSet {
+            updateView()
+        }
+    }
     
     
     
@@ -89,10 +94,11 @@ class MSSegmentedControl: UIControl {
         for title in buttonTitles {
             
             let button = UIButton(type: .system)
+            
+            button.titleLabel?.font = UIFont.boldSystemFont(ofSize: CGFloat(fontSize))
             button.setTitle(title, for: .normal)
             button.setTitleColor(textColor, for: .normal)
             button.addTarget(self, action: #selector(buttonTapped(button:)), for: .touchUpInside)
-            
             buttons.append(button)
         }
         
