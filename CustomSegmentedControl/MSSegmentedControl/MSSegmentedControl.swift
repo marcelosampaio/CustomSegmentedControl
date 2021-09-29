@@ -64,7 +64,7 @@ class MSSegmentedControl: UIControl {
     }
     
     @IBInspectable
-    var fontSize : Int = 15 {
+    var fontSize : CGFloat = 15 {
         didSet {
             updateView()
         }
